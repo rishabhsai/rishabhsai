@@ -31,12 +31,13 @@ There are more than 35 others on [my projects page](https://rishabhsai.com/proje
 
 ## Open source
 
-I fix bugs in the open source projects that AI runs on. I've had **36 pull requests merged** so far, in projects from:
+I fix bugs in the open source projects that AI runs on. I've had **37 pull requests merged** so far, in projects from:
 
 **Google DeepMind** (MuJoCo, Optax) · **Kubeflow** · **Kubernetes** · **Hugging Face** · **Apple** · **MLX** · **Google** (ADK, Gemini Cookbook) · **vLLM** · **llm-d** · **Model Context Protocol** · and more
 
 A few I'm proud of:
 
+- [vllm#69285](https://github.com/vllm-project/vllm/pull/69285): vLLM is one of the most widely used engines for running AI models. When it was set up under a web address prefix, it reported itself as down while it was scaling, so load balancers could pull it offline. A maintainer approved and merged the fix in under a day.
 - [ogx#6704](https://github.com/ogx-ai/ogx/pull/6704) and [ogx#6716](https://github.com/ogx-ai/ogx/pull/6716): in OGX, the open source Llama Stack, one conversation's chat messages could be written into someone else's. The maintainer called it a real data-corruption fix, and I followed up by rebuilding how messages are stored so it can't happen again.
 - [kueue#15575](https://github.com/kubernetes-sigs/kueue/pull/15575): Kubernetes Kueue looked up failed machines by the wrong name, so it could miss jobs sitting on a dead one. The fix shipped in two releases.
 - [trainer#4489](https://github.com/kubeflow/trainer/pull/4489): in Kubeflow Trainer, one empty option could keep an AI hyperparameter search running forever. I found it, the maintainer asked me to fix it, and it merged the same day.
