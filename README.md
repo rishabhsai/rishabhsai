@@ -31,9 +31,9 @@ There are more than 35 others on [my projects page](https://rishabhsai.com/proje
 
 ## Open source
 
-I fix bugs in the open source projects that AI runs on. I've had **40 pull requests merged** so far, in projects from:
+I fix bugs in the open source projects that AI runs on. I've had **43 pull requests merged** so far, in projects from:
 
-**Google DeepMind** (MuJoCo, Optax) · **Kubeflow** · **Kubernetes** · **Hugging Face** · **Apple** · **MLX** · **Google** (ADK, Gemini Cookbook) · **Meta** · **vLLM** · **llm-d** · **Model Context Protocol** · and more
+**Google DeepMind** (MuJoCo, Optax) · **Kubeflow** · **Kubernetes** · **Hugging Face** · **Apple** · **MLX** · **Google** (ADK, Gemini Cookbook) · **Meta** · **Envoy** · **Prometheus** · **vLLM** · **llm-d** · **Model Context Protocol** · and more
 
 A few I'm proud of:
 
